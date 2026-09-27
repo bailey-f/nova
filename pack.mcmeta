@@ -1,7 +1,7 @@
 {
   "pack": {
-    "min_format": 88,
-    "max_format": 121,
+    "min_format": 88.0,
+    "max_format": 109.0,
     "description": [
       {
         "text": "Bailey's Nova Pack",

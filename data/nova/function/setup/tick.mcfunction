@@ -1,1 +1,0 @@
-function nova:setup/ticking_functions

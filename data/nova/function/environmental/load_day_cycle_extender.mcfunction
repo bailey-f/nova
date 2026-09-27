@@ -1,1 +1,0 @@
-function nova:environmental/day_cycle_extender
