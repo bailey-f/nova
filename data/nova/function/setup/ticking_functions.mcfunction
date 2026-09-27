@@ -1,0 +1,1 @@
+function nova:mechanic/manage_hunger
