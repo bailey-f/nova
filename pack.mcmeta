@@ -11,8 +11,36 @@
         "text": "\n"
       },
       {
-        "text": "0.0.1 for 26.3",
+        "text": "0.0.2 for 26.3",
         "color": "#908b8b"
+      }
+    ]
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "recipe/stone_(axe|hoe|pickaxe|shovel|sword|spear)"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "recipe/wooden_(axe|hoe|pickaxe|shovel|sword|spear)"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "advancement/recipes/tools/stone_(axe|hoe|pickaxe|shovel)"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "advancement/recipes/tools/wooden_(axe|hoe|pickaxe|shovel)"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "advancement/recipes/combat/stone_(sword|spear)"
+      },
+      {
+        "namespace": "minecraft",
+        "path": "advancement/recipes/combat/wooden_(sword|spear)"
       }
     ]
   }

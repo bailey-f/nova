@@ -1,0 +1,56 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"#": "minecraft:stick"
+	},
+	"pattern": [
+		"   ",
+		" # ",
+		"#  "
+	],
+	"result": {
+		"components": {
+			"minecraft:item_name": {
+				"translate": "Wooden Baselard"
+			},
+			"minecraft:max_damage": 50,
+			"minecraft:item_model": "minecraft:wooden_baselard",
+			"minecraft:lore": [
+				{
+					"text": "🗡 1",
+					"color": "red",
+					"italic": false
+				},
+				{
+					"text": "🕒 2",
+					"color": "gray",
+					"italic": false
+				}
+			],
+			"minecraft:tooltip_display": {
+				"hidden_components": [
+					"minecraft:attribute_modifiers"
+				]
+			},
+			"minecraft:attribute_modifiers": [
+				{
+					"type": "minecraft:attack_damage",
+					"id": "attack_damage",
+					"amount": 3,
+					"operation": "add_value",
+					"slot": "mainhand"
+				},
+				{
+					"type": "minecraft:attack_speed",
+					"id": "attack_speed",
+					"amount": -2,
+					"operation": "add_value",
+					"slot": "mainhand"
+				}
+			]
+		},
+		"count": 1,
+		"id": "minecraft:wooden_sword"
+	}
+}
